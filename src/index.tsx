@@ -1,6 +1,13 @@
-import * as React from 'react';
+import Row, { RowProps } from "./components/Row/Row"
+import Table, { TableProps } from "./components/Table/Table"
 
-// Delete me
-export const Thing = () => {
-  return <div>the snozzberries taste like snozzberries</div>;
-};
+export type {
+  RowProps,
+  TableProps
+}
+
+export {
+  Row,
+  Table
+}
+
